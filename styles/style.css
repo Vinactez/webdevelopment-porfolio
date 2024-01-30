@@ -2,12 +2,12 @@
 body {
   font-family: "Open Sans", "sans-serif";
 }
-.orange{
-  color: #FD6E0A;
+.orange {
+  color: #fd6e0a;
 }
 
-.button-primary{
-  background-color: #FD6E0A;
+.button-primary {
+  background-color: #fd6e0a;
   border-radius: 5px;
   border: none;
   color: white;
@@ -20,27 +20,40 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin: 0 200px;
 }
 
-.nav-title{
+.nav-title {
   color: #181818;
-font-size: 45px;
-font-weight: 800;
+  font-size: 45px;
+  font-weight: 800;
 }
 
-nav  ul{
+nav ul {
   display: flex;
   align-items: center;
 }
 
-nav  li{
+nav li {
   list-style: none;
   margin-left: 50px;
 }
 
-nav  a{
+nav a {
   text-decoration: none;
   color: #474747;
 }
 
+/* header related styles*/
+.header{
+  background-color: #fff8f3;
+}
 
+.banner{
+      padding: 30px 30px 30px 150px;
+      display: flex;
+}
+
+.banner .profile-pic{
+    width: 500px;
+}
